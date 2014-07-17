@@ -1,5 +1,6 @@
 mod "profile",
-  :git => "git://github.com/whitby/puppet-module-profile.git"
+  :git => "git://github.com/whitby/puppet-module-profile.git",
+  :ref => "managedmac"
 mod 'rcoleman/mac_profiles_handler', '0.3.0'
 mod 'puppetlabs/stdlib', '4.3.2'
 mod "mac_facts",

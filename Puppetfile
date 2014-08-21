@@ -1,6 +1,5 @@
 mod "profile",
-  :git => "git://github.com/whitby/puppet-module-profile.git",
-  :ref => 'printers'
+  :git => "git://github.com/whitby/puppet-module-profile.git"
 mod 'rcoleman/mac_profiles_handler', '0.3.0'
 mod 'puppetlabs/stdlib', '4.3.2'
 mod 'mosen/cups', '1.3.0'

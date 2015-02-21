@@ -4,7 +4,7 @@
 :hierarchy:
   - "%{clientcert}"
   - "%{role}"
-  - "%{mac_laptop}"
+  - "%{virtual}/%{operatingsystem}"
   - "%{operatingsystem}"
   - global
 
